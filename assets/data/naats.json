@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Book 1",
+    "coverImage": "cover1.jpg",
+    "naats": [
+      {
+        "id": 1,
+        "title": "Naat 1",
+        "bookId": 1,
+        "verses": [
+          {"id": 1, "text": "Verse 1", "explanation": "Explanation 1"}
+        ]
+      }
+    ]
+  }
+]
