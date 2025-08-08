@@ -1,0 +1,120 @@
+lib/
+├── main.dart
+├── app/
+│   ├── app.dart
+│   ├── routes/
+│   │   ├── app_routes.dart
+│   │   └── route_generator.dart
+│   └── themes/
+│       ├── app_themes.dart
+│       └── theme_data.dart
+├── core/
+│   ├── constants/
+│   │   ├── app_constants.dart
+│   │   ├── asset_paths.dart
+│   │   └── strings.dart
+│   ├── errors/
+│   │   ├── exceptions.dart
+│   │   └── failures.dart
+│   ├── network/
+│   │   └── network_info.dart
+│   ├── platform/
+│   │   └── device_info.dart
+│   └── utils/
+│       ├── extensions.dart
+│       ├── helpers.dart
+│       └── validators.dart
+├── data/
+│   ├── datasources/
+│   │   ├── local/
+│   │   │   ├── database_helper.dart
+│   │   │   ├── json_data_source.dart
+│   │   │   └── shared_preferences_helper.dart
+│   │   └── remote/
+│   │       └── api_data_source.dart
+│   ├── models/
+│   │   ├── book_model.dart
+│   │   ├── naat_model.dart
+│   │   ├── verse_model.dart
+│   │   └── favorite_model.dart
+│   └── repositories/
+│       ├── book_repository_impl.dart
+│       ├── naat_repository_impl.dart
+│       └── settings_repository_impl.dart
+├── domain/
+│   ├── entities/
+│   │   ├── book.dart
+│   │   ├── naat.dart
+│   │   ├── verse.dart
+│   │   └── favorite.dart
+│   ├── repositories/
+│   │   ├── book_repository.dart
+│   │   ├── naat_repository.dart
+│   │   └── settings_repository.dart
+│   └── usecases/
+│       ├── get_books.dart
+│       ├── get_naats_by_book.dart
+│       ├── get_naat_detail.dart
+│       ├── manage_favorites.dart
+│       ├── search_naats.dart
+│       └── manage_settings.dart
+├── presentation/
+│   ├── providers/
+│   │   ├── book_provider.dart
+│   │   ├── naat_provider.dart
+│   │   ├── favorite_provider.dart
+│   │   ├── settings_provider.dart
+│   │   └── search_provider.dart
+│   ├── screens/
+│   │   ├── main/
+│   │   │   ├── main_screen.dart
+│   │   │   └── widgets/
+│   │   │       ├── book_card.dart
+│   │   │       ├── search_bar.dart
+│   │   │       └── books_grid.dart
+│   │   ├── book_detail/
+│   │   │   ├── book_detail_screen.dart
+│   │   │   └── widgets/
+│   │   │       ├── alphabet_selector.dart
+│   │   │       ├── naat_list_item.dart
+│   │   │       └── filtered_naat_list.dart
+│   │   ├── naat_detail/
+│   │   │   ├── naat_detail_screen.dart
+│   │   │   └── widgets/
+│   │   │       ├── verse_card.dart
+│   │   │       ├── action_buttons.dart
+│   │   │       └── explanation_dialog.dart
+│   │   ├── favorites/
+│   │   │   ├── favorites_screen.dart
+│   │   │   └── widgets/
+│   │   │       ├── favorite_naat_card.dart
+│   │   │       └── grouped_favorites.dart
+│   │   ├── settings/
+│   │   │   ├── settings_screen.dart
+│   │   │   └── widgets/
+│   │   │       ├── theme_selector.dart
+│   │   │       ├── font_size_slider.dart
+│   │   │       └── language_selector.dart
+│   │   └── search/
+│   │       ├── search_screen.dart
+│   │       └── widgets/
+│   │           ├── search_results.dart
+│   │           └── search_filters.dart
+│   └── widgets/
+│       ├── common/
+│       │   ├── custom_app_bar.dart
+│       │   ├── loading_indicator.dart
+│       │   ├── error_widget.dart
+│       │   ├── empty_state.dart
+│       │   └── bottom_navigation.dart
+│       └── dialogs/
+│           ├── confirmation_dialog.dart
+│           └── info_dialog.dart
+└── assets/
+    ├── images/
+    │   ├── book_covers/
+    │   └── icons/
+    ├── data/
+    │   └── naats.json
+    └── fonts/
+        └── urdu_fonts/
