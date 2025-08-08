@@ -1,1 +1,67 @@
-[]
+{
+  "books": [
+    {
+      "id": "book1",
+      "title": "Collection 1",
+      "cover": null,
+      "naats": [
+        {
+          "id": "n1",
+          "title": "Allahu Akbar",
+          "author": "Author A",
+          "verses": [
+            {
+              "id": "v1",
+              "urdu": "اللہ اکبر",
+              "transliteration": "Allahu Akbar",
+              "translation": "God is the Greatest",
+              "explanation": "A praise phrase meaning God is greater than everything."
+            },
+            {
+              "id": "v2",
+              "urdu": "یا نبی سلام علیک",
+              "transliteration": "Ya Nabi Salam Alayk",
+              "translation": "O Prophet, peace be upon you",
+              "explanation": "A phrase sending peace upon the Prophet."
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "title": "Bismillah",
+          "author": "Author B",
+          "verses": [
+            {
+              "id": "v1",
+              "urdu": "بِسْمِ اللہِ الرَّحْمٰنِ الرَّحِیم",
+              "transliteration": "Bismillah-ir-Rahman-ir-Raheem",
+              "translation": "In the name of God, the Most Gracious, the Most Merciful",
+              "explanation": "Common opening phrase."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book2",
+      "title": "Collection 2",
+      "cover": null,
+      "naats": [
+        {
+          "id": "n3",
+          "title": "A Praise",
+          "author": "Author C",
+          "verses": [
+            {
+              "id": "v1",
+              "urdu": "مدح الرسول",
+              "transliteration": "Madah un-Nabi",
+              "translation": "Praise of the Prophet",
+              "explanation": "Words praising the Prophet."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
