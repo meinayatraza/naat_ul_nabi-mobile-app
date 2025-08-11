@@ -1,0 +1,26 @@
+[
+  {
+    "id": "book_1",
+    "title": "Naat Collection Volume 1",
+    "title_urdu": "نعت مجموعہ جلد اول",
+    "author": "Various Authors",
+    "author_urdu": "مختلف مصنفین",
+    "description": "A beautiful collection of Naats praising the Prophet Muhammad (PBUH)",
+    "cover_image_path": "assets/images/book_covers/book_1.jpg",
+    "categories": ["Religious", "Poetry", "Urdu"],
+    "publish_date": "2020-01-01T00:00:00.000Z",
+    "total_naats": 150
+  },
+  {
+    "id": "book_2",
+    "title": "Madh-e-Sarwar-e-Kaunain",
+    "title_urdu": "مدحِ سرورِ کونین",
+    "author": "Imam Busiri",
+    "author_urdu": "امام بوصیری",
+    "description": "Famous collection including Qasida Burda Sharif",
+    "cover_image_path": "assets/images/book_covers/book_2.jpg",
+    "categories": ["Classical", "Arabic", "Religious"],
+    "publish_date": "2019-06-15T00:00:00.000Z",
+    "total_naats": 89
+  }
+]

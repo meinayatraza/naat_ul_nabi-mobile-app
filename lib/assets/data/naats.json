@@ -1,0 +1,56 @@
+[
+  {
+    "id": "naat_1",
+    "book_id": "book_1",
+    "title": "Ya Rasool Allah Salamun Alayka",
+    "title_urdu": "یا رسول اللہ سلامُن علیک",
+    "first_letter": "Y",
+    "verses": [
+      {
+        "id": "verse_1_1",
+        "naat_id": "naat_1",
+        "order_index": 1,
+        "text_urdu": "یا رسول اللہ سلامُن علیک",
+        "text_transliteration": "Ya Rasool Allah Salamun Alayka",
+        "text_translation": "O Messenger of Allah, peace be upon you",
+        "explanation": "This is a greeting of peace and respect to the Prophet Muhammad (PBUH)",
+        "type": "chorus"
+      },
+      {
+        "id": "verse_1_2",
+        "naat_id": "naat_1",
+        "order_index": 2,
+        "text_urdu": "یا حبیب اللہ سلامُن علیک",
+        "text_transliteration": "Ya Habib Allah Salamun Alayka",
+        "text_translation": "O Beloved of Allah, peace be upon you",
+        "explanation": "Addressing the Prophet as the beloved of Allah",
+        "type": "verse"
+      }
+    ],
+    "audio_path": "assets/audio/naat_1.mp3",
+    "keywords": ["rasool", "salam", "peace", "prophet", "muhammad"],
+    "category": "Praise"
+  },
+  {
+    "id": "naat_2",
+    "book_id": "book_1",
+    "title": "Allah Hoo Allah Hoo",
+    "title_urdu": "اللہ ہو اللہ ہو",
+    "first_letter": "A",
+    "verses": [
+      {
+        "id": "verse_2_1",
+        "naat_id": "naat_2",
+        "order_index": 1,
+        "text_urdu": "اللہ ہو اللہ ہو اللہ ہو اللہ",
+        "text_transliteration": "Allah Hoo Allah Hoo Allah Hoo Allah",
+        "text_translation": "Allah is, Allah is, Allah is, Allah",
+        "explanation": "Remembrance and praise of Allah Almighty",
+        "type": "chorus"
+      }
+    ],
+    "audio_path": null,
+    "keywords": ["allah", "remembrance", "dhikr", "praise"],
+    "category": "Divine Praise"
+  }
+]
